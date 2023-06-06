@@ -1,4 +1,4 @@
 # discord-username-sniper
 claims a discord username @ as soon as its available 
 
--- releasing soon --
+-- released on 6th June, 2023 --

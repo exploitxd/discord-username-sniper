@@ -16,7 +16,7 @@ session = tls_client.Session(client_identifier="chrome110")
 session.headers.update(headers)
 
 def snap():
-    payload = {"userame": target_username}
+    payload = {"username": target_username}
     request = session.post("https://canary.discord.com/api/v9/users/@me/pomelo", json=payload)
     if request.status in (200, 201, 204):
         print("[+] %s claimed" % target_username)

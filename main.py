@@ -33,7 +33,6 @@ def fetch():
             sys.exit()
         else:
             print("[+] %s is still taken" % target_username)
-            sys.exit()
     elif request.status_code == 404:
         print("[-] %s invalid user" % target_username_holder)
         sys.exit()
